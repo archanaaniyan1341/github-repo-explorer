@@ -1,0 +1,32 @@
+
+@reference "tailwindcss";
+
+ .app-error-boundary {
+  @apply flex items-center justify-center min-h-screen w-full bg-gray-50 p-4;
+}
+
+.error-container {
+  @apply max-w-3xl w-full p-6 bg-white rounded-lg shadow-md flex flex-col items-center justify-center;
+}
+
+.error-heading {
+  @apply text-2xl font-bold text-red-600 mb-4 text-center flex flex-row items-center;
+}
+
+.error-message {
+  @apply text-red-500 mb-6 text-center;
+}
+
+.error-details {
+  @apply mb-6 text-sm;
+}
+
+.error-stack {
+  @apply p-4 bg-gray-100 rounded overflow-x-auto text-xs;
+}
+
+.reset-button {
+  @apply px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors items-center justify-center;
+} 
+
+

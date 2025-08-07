@@ -1,0 +1,22 @@
+/* TabBar.css */
+@reference "tailwindcss";
+
+.tab-bar {
+  @apply p-2 border-t flex justify-around;
+}
+
+.tab-button {
+  @apply flex flex-col items-center px-4 py-2;
+}
+
+.tab-button-active {
+  @apply text-blue-600;
+}
+
+.tab-button-inactive {
+  @apply text-gray-500;
+}
+
+.tab-label {
+  @apply text-sm;
+}

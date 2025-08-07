@@ -1,0 +1,39 @@
+/* RepoItem.css */
+@reference "tailwindcss";
+
+.repo-item {
+  @apply  border p-4 rounded-lg shadow-sm mb-4 hover:bg-gray-200 transition;
+}
+
+.repo-link {
+  @apply text-xl font-bold text-blue-700 hover:underline;
+}
+
+.repo-description {
+  @apply text-gray-700 mt-1;
+}
+
+
+.repo-meta-container {
+  @apply flex justify-between items-center mt-4;
+}
+
+.repo-owner {
+  @apply flex items-center;
+}
+
+.repo-avatar {
+  @apply w-8 h-8 rounded-full mr-2;
+}
+
+.repo-username {
+  @apply text-sm text-gray-600;
+}
+
+.repo-stars {
+  @apply flex items-center text-sm text-gray-600;
+}
+
+.star-icon {
+  @apply mr-1 text-yellow-500;
+}

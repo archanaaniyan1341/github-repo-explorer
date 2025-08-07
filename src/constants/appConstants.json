@@ -1,0 +1,20 @@
+{
+    "title":{
+        "trending": "Trending",
+        "settings": "Settings"
+    },
+    "settings":{
+        "content":"Settings page"
+    },
+    "text":{
+        "loading": "Loading",
+        "endMessage":"No data to load",
+        "noData":"No data available"
+    },
+    "error":{
+        "heading":"Something went wrong",
+        "message":"Please try again later",
+        "summaryText":"Error Details",
+        "buttonText":"Reload Application"
+    }
+}

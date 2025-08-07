@@ -1,0 +1,19 @@
+/* RepoList.css */
+@reference "tailwindcss";
+
+.repo-list-container {
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+.loading-container {
+  @apply flex justify-center items-center ;
+}
+
+.loading-spinner {
+  @apply mr-1 animate-spin;
+}
+
+.end-message {
+  @apply text-center ;
+}
