@@ -16,10 +16,10 @@ A responsive web application that displays the most starred GitHub repositories 
 
 ## Screenshot
 Sample App Layout
-![alt text](image.png)
+![alt text](./public/images/image.png)
 
 Error Layout
-![alt text](image-1.png)
+![alt text](./public/images/image-1.png)
 
 ## How It Works
 
