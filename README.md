@@ -14,6 +14,10 @@ A responsive web application that displays the most starred GitHub repositories 
    - Owner avatar and username
 -  Error boundary for graceful error handling
 
+## View app
+
+View the app hosted in vercel https://github-repo-explorer-8lsi.vercel.app/
+
 ## Screenshot
 Sample App Layout
 ![alt text](./public/images/image.png)
