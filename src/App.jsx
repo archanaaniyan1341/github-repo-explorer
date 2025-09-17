@@ -15,6 +15,10 @@ const App = () => {
          
           <Routes>
             <Route
+              path="/"
+              element={<AppView activeTab={activeTab} />}
+            />
+            <Route
               path="/trending"
               element={<AppView activeTab={activeTab} />}
             />
